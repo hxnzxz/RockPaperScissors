@@ -68,7 +68,7 @@ function playGame(){
         rounds++;
     }
     if(humanScore == computerScore){
-        console.log('It\'s a tie!');
+        console.log('It\'s a tie! No one wins.');
     }else if(humanScore < computerScore){
         console.log(`The computer has won by ${computerScore-humanScore} points`);
     }else{
